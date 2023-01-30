@@ -17,6 +17,8 @@ import AuthenticationPage, {
   action as authAction,
 } from "./pages/Authentication";
 
+import { action as logoutAction } from "./pages/logout";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -67,6 +69,10 @@ const router = createBrowserRouter([
         path: "newsletter",
         element: <NewsletterPage />,
         action: newsletterAction,
+      },
+      {
+        path: "logout",
+        action: logoutAction,
       },
     ],
   },
