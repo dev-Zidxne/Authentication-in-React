@@ -17,7 +17,7 @@ import AuthenticationPage, {
   action as authAction,
 } from "./pages/Authentication";
 
-import { action as logoutAction } from "./pages/logout";
+import { action as logoutAction } from "./pages/Logout";
 
 import { checkAuthLoader, tokenLoader } from "./util/auth";
 
